@@ -10,8 +10,8 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         <h1>{state.count}</h1>
-        <button onClick={()=>dispatch({type:"inc"})}>Increment</button>
-        <button onClick={()=>dispatch({type:"dec"})}>Decrement</button>
+        <button onClick={()=>dispatch({type:"inc"})}>increment</button>
+        <button onClick={()=>dispatch({type:"dec"})}>decrement</button>
     </div>
   )
 }
